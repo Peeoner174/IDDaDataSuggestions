@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.author           = { "4tune" => "sotskiy@gmail.com" }
   s.source           = { :git => "https://github.com/instadev/IDDaDataSuggestions.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '11.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
     'IDDaDataSuggestions' => ['Pod/Assets/*.png']
   }
 
-  s.dependency 'AFNetworking', '~> 2.0'
+  s.dependency 'AFNetworking', '~> 3.0.1'
 end
