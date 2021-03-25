@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
     'IDDaDataSuggestions' => ['Pod/Assets/*.png']
   }
 
-  s.dependency 'AFNetworking', '~> 3.0.1'
+  s.dependency 'AFNetworking', '~> 4.0'
 end
